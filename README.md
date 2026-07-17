@@ -82,8 +82,8 @@ node mc-proxy.js
 
 在 [mc-proxy.js](file:///e:/workbenc/HTML/MCHTMLserver/mc-proxy.js) 中修改以下配置：
 
-- **服务器地址**: 第 165 行 `queryMinecraftServer('frp-art.com', 46124)`
-- **服务端口**: 第 187 行 `const PORT = 3456`
+- **服务器地址**: 第 165 行 `queryMinecraftServer('服务器域名', 端口)`
+- **服务端口**: 第 187 行 `const PORT = 端口`
 - **协议版本**: 第 50 行 `const protocolVersion = writeVarInt(767)` (767 对应 1.21.1)
 
 ## 自定义内容
