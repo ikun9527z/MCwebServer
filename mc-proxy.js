@@ -162,7 +162,7 @@ const server = http.createServer(async (req, res) => {
         res.setHeader('Content-Type', 'application/json');
         
         try {
-            const status = await queryMinecraftServer('frp-art.com', 46124);
+            const status = await queryMinecraftServer('服务器域名', 端口);
             res.writeHead(200);
             res.end(JSON.stringify({
                 online: true,
