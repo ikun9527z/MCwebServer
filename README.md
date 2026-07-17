@@ -1,8 +1,7 @@
 # MC 服务器官方首页
 
 一个为 Minecraft 服务器打造的官方首页网站，包含服务器信息展示、在线人数查询、游戏截图预览、玩法介绍和客户端下载等功能。
-  <em>演示</em>
-  ![Raw GitHub Image](https://raw.githubusercontent.com/ikun9527z/MCwebServer/main/DEMO.ing)
+  ![演示截图](./DEMO.png)
 
 ## 项目结构
 
